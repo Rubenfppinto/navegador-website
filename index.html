@@ -4,7 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!-- font awesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <!--Import Google Icon Font-->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <!-- Compiled and minified CSS -->
@@ -24,26 +24,27 @@
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#menu">Menu</a></li>
                         <li><a href="#galeria">Galeria</a></li>
-                        <li><a href="">Sobre Nós</a></li>
-                        <li><a href="">Equipa</a></li>
-                        <li><a href="">Localização</a></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#localizacao">Localização</a></li>
                     </ul>
                     <ul class="sidenav light-blue lighten-5" id="mobile-menu">
                         <li><a href="#menu">Menu</a></li>
                         <li><a href="#galeria">Galeria</a></li>
-                        <li><a href="">Sobre Nós</a></li>
-                        <li><a href="">Equipa</a></li>
-                        <li><a href="">Localização</a></li>
-                        <li><a href="">Contacto</a></li>
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#localizacao">Localização</a></li>
                     </ul>
                 </div>
             </nav>
+            <div class="container white-text header-box valign-wrapper">
+                <h2>Bem vindo,<br> ao Navegador</h2>
+            </div>
         </header>
 
         <!-- Menu / grid -->
         <div class="container section">
-            <h3 class="center-align" id="menu">Prato do dia</h3>
+            <h3 class="center-align scrollspy" id="menu">Prato do dia</h3>
             <div class="row">
                 <div class="col s12 m6 l4">
                     <div class="card">
@@ -108,76 +109,127 @@
             </div>
         </div>
 
+        <!-- Galeria -->
+        <section class="container-fluid section light-blue lighten-5">
+            <div class="container">
+                <h3 class="center-align scrollspy" id="galeria">Galeria de Fotos</h3>
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m6 l3">
+                        <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                    <div class="col s12 m6 l3">
+                        <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
+                    </div>
+                </div>
+                <div class="row center-align">
+                        <div id="ver-mais">
+                            <button class="tooltipped btn blue" data-tooltip="Clica para ver mais fotos">Ver mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Sobre nós -->
-        <section class="container section" id="galeria">
-            <h3 class="center-align">Galeria de Fotos</h3>
+        <section class="container section scrollspy" id="sobre-nos">
             <div class="row">
-                <div class="col s12 m6 l3">
-                    <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
-                </div>
-                <div class="col s12 m6 l3">
-                    <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
-                </div>
-                <div class="col s12 m6 l3">
-                    <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
-                </div>
-                <div class="col s12 m6 l3">
-                    <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 m6 l3">
-                    <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
-                </div>
-                <div class="col s12 m6 l3">
-                    <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
-                </div>
-                <div class="col s12 m6 l3">
-                    <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
-                </div>
-                <div class="col s12 m6 l3">
-                    <img src="img/francesinha.jpg" alt="" class="responsive-img materialboxed">
-                </div>
-            </div>
-            <div class="row center-align">
-                    <div id="ver-mais">
-                        <button class="btn blue">Ver mais</button>
+                <h3 class="center-align">Sobre nós</h3>
+                <div class="col s12 l12">
+                    <div class="card card-border">
+                        <div class="card-content">
+                            <h6>Lorem ipsum</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sed nobis et, accusamus autem consectetur, doloremque sunt recusandae </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- contact form -->
-        <section class="container section" id="contact">
-            <div class="row">
-                <div class="col s12 l5">
-                    <h3 class="blue-text text-darken-2">Contacte-nos</h2>
-                    <p><span class="bold-text">Telefone: </span>931234567</p>
-                    <p><span class="bold-text">Morada: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores dolorum sapiente accusamus velit neque </p>
-                    <p><span class="bold-text">Horário de Funcionamento: </span>Segunda a Sábado: 7:00 às 22:00</p>
-                </div>
-                <div class="col s12 l5 offset-l2">
-                    <form action="">
-                        <div class="input-field">
-                            <i class="material-icons prefix">perm_identity</i>
-                            <input type="text" id='name'>
-                            <label for="name">Nome e Apelido</label>
-                        </div>
-                        <div class="input-field">
-                            <i class="material-icons prefix">email</i>
-                            <input type="email" id='email'>
-                            <label for="email">Email</label>
-                        </div>
-                        <div class="input-field">
-                            <i class="material-icons prefix">message</i>
-                            <textarea id="message" class="materialize-textarea" cols="30" rows="10"></textarea>
-                            <label for="message">Mensagem</label>
-                        </div>
-                    </form>
+        <section class="container-fluid section scrollspy light-blue lighten-5" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l5">
+                        <h3 class="blue-text text-darken-2">Contacte-nos</h2>
+                        <p><span class="bold-text">Telefone: </span>931234567</p>
+                        <p><span class="bold-text">Morada: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam maiores dolorum sapiente accusamus velit neque </p>
+                        <p><span class="bold-text">Horário de Funcionamento: </span>Segunda a Sábado: 7:00 às 22:00</p>
+                    </div>
+                    <div class="col s12 l5 offset-l2">
+                        <form action="">
+                            <div class="input-field">
+                                <i class="material-icons prefix">perm_identity</i>
+                                <input type="text" id='name'>
+                                <label for="name">Nome e Apelido</label>
+                            </div>
+                            <div class="input-field">
+                                <i class="material-icons prefix">email</i>
+                                <input type="email" id='email'>
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field">
+                                <i class="material-icons prefix">message</i>
+                                <textarea id="message" class="materialize-textarea" cols="30" rows="10"></textarea>
+                                <label for="message">Mensagem</label>
+                            </div>
+                            <div class="input-field center">
+                                <button class="btn blue">Submeter mensagem</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
+
         <!-- footer -->
+        <footer class="page-footer grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l6">
+                        <h5>Lorem ipsum</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus blanditiis nulla quasi expedita modi hic accusamus amet rem id illo! Dicta suscipit excepturi odit consequatur officiis quas eveniet tempora laboriosam.</p>
+                    </div>
+                    <div class="col s12 l4 offset-l2">
+                        <h5>Siga-nos</h5>
+                        <div class="btn-floating btn-small indigo darken-4">
+                            <i class="fab fa-facebook"></i>
+                        </div>
+                        <div class="btn-floating btn-small brown darken-4">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="btn-floating btn-small light-blue">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright grey darken-4">
+                <div class="container center-align">
+                    &copy; 2019 O Navegador
+                </div>
+            </div>
+        </footer>
 
         <!-- Compiled and minified JavaScript -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
