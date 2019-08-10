@@ -31,3 +31,7 @@ header {
 .header-box {
     height: 80%;
 }
+
+.moreGallery {
+    display: none;
+}
