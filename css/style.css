@@ -1,0 +1,25 @@
+header {
+    background:  url(../img/header-bg.jpeg) center no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+@media screen and (max-width: 670px) {
+    header {
+        min-height: 50%;
+    }
+}
+
+.modal {
+    width: 75%;
+    height: 100%;
+}
+
+.section {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+.bold-text {
+    font-weight: bold;
+}
